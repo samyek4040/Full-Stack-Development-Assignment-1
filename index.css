@@ -1,0 +1,102 @@
+/* ===== General Body Styling ===== */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #f0f2f5, #e0e7ff); /* subtle gradient */
+    margin: 0;
+    padding: 20px;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* ===== Header ===== */
+header {
+    text-align: center;
+    padding: 40px 20px 30px 20px;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+header h1 {
+    font-size: 2.8em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #f0f0f0;
+}
+
+/* ===== Main Sections ===== */
+section {
+    background-color: #ffffff;
+    padding: 25px 20px;
+    margin: 20px 0;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+h2 {
+    color: #2575fc;
+    margin-bottom: 15px;
+    font-size: 1.8em;
+}
+
+/* ===== Paragraphs ===== */
+p {
+    color: #555555;
+    font-size: 1em;
+}
+
+/* ===== Lists ===== */
+ul {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 8px;
+    list-style-type: disc;
+}
+
+/* ===== Links ===== */
+a {
+    color: #6a11cb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #2575fc;
+    text-decoration: underline;
+}
+
+/* ===== Footer ===== */
+footer {
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 30px;
+    background-color: #2c3e50;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* ===== Responsive Adjustments ===== */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2em;
+    }
+    section {
+        padding: 20px 15px;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+}

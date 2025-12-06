@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favorite Music Bands</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+    <div class="container my-5">
+        <!-- Header -->
+        <header class="text-center mb-5">
+            <h1 class="text-primary">My Favorite Music Bands</h1>
+            <p class="lead">A simple webpage showing my favorite bands using Bootstrap</p>
+        </header>
+
+        <!-- First Row: Why I Like Music + Genres -->
+        <div class="row mb-4">
+            <div class="col-md-6">
+                <div class="card p-3 mb-3">
+                    <h2>Why I Like Music</h2>
+                    <p>Music helps me relax and stay focused. I usually listen to music while studying or travelling.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card p-3 mb-3">
+                    <h2>Music Genres</h2>
+                    <ul class="list-group">
+                        <li class="list-group-item">Rock</li>
+                        <li class="list-group-item">Metal</li>
+                        <li class="list-group-item">Alternative</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Second Row: Favorite Bands + Music Platform -->
+        <div class="row mb-4">
+            <div class="col-md-6">
+                <div class="card p-3 mb-3">
+                    <h2>Favorite Bands</h2>
+                    <ul class="list-group">
+                        <li class="list-group-item">Linkin Park</li>
+                        <li class="list-group-item">Porcupine Tree</li>
+                        <li class="list-group-item">Metallica</li>
+                        <li class="list-group-item">Gojira</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card p-3 mb-3">
+                    <h2>Music Platform</h2>
+                    <p>I mostly use <a href="https://open.spotify.com" target="_blank">Spotify</a> to listen to music.</p>
+                </div>
+            </div>
+        </div>
+
+        <section class="card" id="suggest-band">
+            <h2>Suggest a New Band</h2>
+            <input type="text" id="bandInput" placeholder="Type band name here">
+            <button id="submitBtn">Submit</button>
+            <p id="message"></p>
+        </section>
+        
+
+        <!-- Footer -->
+        <footer class="text-center mt-5">
+            <p class="text-muted">Rock and Metal is always on top priority</p>
+        </footer>
+    </div>
+
+    <!-- Bootstrap JS Bundle CDN (optional for components) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="index.js"></script>
+    <!--Updated code-->
+</body>
+</html>
